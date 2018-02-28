@@ -1,0 +1,68 @@
+body p {
+	color: red;
+}
+@media all and (max-width: 935px){
+body p {
+	color: inherit;
+}
+.toggle-menu{
+	display: block;
+}
+userHeader{
+	padding-bottom: 0px;
+}
+.menu{
+	display: none;
+	width: 100%;
+}
+.menu li{
+	float: none;
+}
+.menu a{
+	font-size: 25px;
+}
+.menu ul{
+	text-align: center;
+	width: 100%;
+}
+.main-footer p{
+	padding: 0;
+}
+	
+.animationPhone {
+	display: none;
+}	
+.description {
+	margin: 0;
+	padding: 0;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+header .description p {
+    width: 100%;
+	margin-top: 100px;
+    margin-bottom: 100px;
+	font-size: 25px;
+}
+.icon {
+	margin: 10px;
+	padding: 0;
+	}
+.icon h4 {
+	font-size: 30px;	
+}
+.icon p {
+	font-size: 25px;	
+	margin: 20px 0  0;
+}	
+span {
+	font-size: 25px;
+}
+form input{
+    margin-bottom: 25px;
+}}
+@media (min-width:936px) {
+.menu ul{
+     display: block !important;
+}}
